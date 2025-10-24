@@ -31,34 +31,42 @@ menuBtn.addEventListener('click', () => {
 
 // js dropdown dropdown
 document.addEventListener("DOMContentLoaded", () => {
-    // Lấy tất cả các dropdown trên trang
-    const dropdowns = document.querySelectorAll(".dropdown-btn");
+    // Lấy tất cả dropdown trên trang
+    const dropdowns = document.querySelectorAll(".dropdown");
 
-    dropdowns.forEach((btn) => {
-        const parent = btn.closest("div"); // container của dropdown
-        const menu = parent.querySelector(".dropdown-menu");
+    dropdowns.forEach((dropdown) => {
+        const btn = dropdown.querySelector(".dropdown-btn");
+        const menu = dropdown.querySelector(".dropdown-menu");
+        const span = btn.querySelector("span"); // nội dung trong nút
 
-        // Khi click vào nút → mở hoặc đóng menu tương ứng
+        // Lưu placeholder gốc
+        const placeholder = span.innerHTML.trim();
+
+        // Toggle mở/đóng menu
         btn.addEventListener("click", (e) => {
             e.stopPropagation();
-            // Đóng tất cả các dropdown khác
-            document.querySelectorAll(".dropdown-menu").forEach(m => {
+            document.querySelectorAll(".dropdown-menu").forEach((m) => {
                 if (m !== menu) m.classList.add("hidden");
             });
-            // Toggle dropdown hiện tại
             menu.classList.toggle("hidden");
         });
 
-        // Khi click vào item trong menu
-        menu.querySelectorAll("li").forEach((item) => {
-            item.addEventListener("click", () => {
-                btn.querySelector("span").innerHTML = item.innerHTML;
-                menu.classList.add("hidden");
+        // Khi click vào checkbox
+        menu.querySelectorAll("input[type='checkbox']").forEach((checkbox) => {
+            checkbox.addEventListener("change", () => {
+                const selected = Array.from(menu.querySelectorAll("input[type='checkbox']:checked"))
+                    .map(cb => cb.nextElementSibling.innerText.trim());
+
+                if (selected.length > 0) {
+                    span.innerHTML = selected.join(", ");
+                } else {
+                    span.innerHTML = placeholder;
+                }
             });
         });
     });
 
-    // Click ra ngoài → đóng tất cả dropdown
+    // Click ra ngoài để đóng tất cả dropdown
     document.addEventListener("click", () => {
         document.querySelectorAll(".dropdown-menu").forEach((m) => m.classList.add("hidden"));
     });

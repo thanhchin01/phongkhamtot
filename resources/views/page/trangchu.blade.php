@@ -44,8 +44,8 @@
                     <div class="dropdown md:w-auto flex-1 mt-2">
                         <h2>Loại hình</h2>
                         <div class="relative w-64 border rounded-lg p-2 w-full md:w-auto flex-1 mt-2">
-                            <button class="dropdown-btn w-full flex justify-between px-4 py-2 rounded-lg">
-                                <span><i class="fa-solid fa-briefcase me-2 text-green-300"></i>Chọn loại hình</span>
+                            <button class="dropdown-btn w-full flex justify-between px-4 py-2 rounded-lg verflow-hidden text-ellipsis whitespace-nowrap">
+                                <span><i class="truncate max-w-[80%] fa-solid fa-briefcase me-2 text-green-300"></i>Chọn loại hình</span>
                                 <i class="fa fa-chevron-down"></i>
                             </button>
                             <ul
@@ -81,8 +81,8 @@
                     <div class="dropdown md:w-auto flex-1 mt-2">
                         <h2>Chuyên khoa</h2>
                         <div class="relative w-64 border rounded-lg p-2 w-full md:w-auto flex-1 mt-2">
-                            <button class="dropdown-btn w-full flex justify-between px-4 py-2 rounded-lg">
-                                <span><i class="fa-solid fa-stethoscope me-2 text-green-300"></i></i></i>Chọn khoa</span>
+                            <button class="dropdown-btn w-full flex justify-between px-4 py-2 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap">
+                                <span><i class="truncate max-w-[80%] fa-solid fa-stethoscope me-2 text-green-300"></i></i></i>Chọn khoa</span>
                                 <i class="fa fa-chevron-down"></i>
                             </button>
                             <ul
@@ -91,130 +91,130 @@
                                 <div
                                     class="max-h-60 overflow-y-auto pr-2 space-y-2 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100">
                                     <li class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option1"
+                                        <input type="checkbox" id="option4"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option1"
+                                        <label for="option4"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Cơ xương khớp</span>
                                         </label>
                                     </li>
 
                                     <li class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option2"
+                                        <input type="checkbox" id="option5"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option2"
+                                        <label for="option5"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Da liễu</span>
                                         </label>
                                     </li>
 
                                     <li class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option6"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option6"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Hô hấp</span>
                                         </label>
                                     </li>
                                     <li class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option7"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option7"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Ngoại khoa</span>
                                         </label>
                                     </li>
                                     <li class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option8"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option8"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Nha khoa</span>
                                         </label>
                                     </li>
                                     <li class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option9"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option9"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Nhi khoa</span>
                                         </label>
                                     </li>
                                     <li class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option10"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option10"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Phục hồi chức năng</span>
                                         </label>
                                     </li>
                                     <li class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option11"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option11"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Răng - Hàm - Mặt</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option12"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option12"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Sản phụ khoa</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option13"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option13"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Tai mũi họng</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option14"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option14"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Thẩm mĩ viện</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option15"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option15"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Tim mạch</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option16"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option16"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Ung bướu</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option17"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option17"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Xét nghiệm y khoa</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option3"
+                                        <input type="checkbox" id="option18"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option3"
+                                        <label for="option18"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Y học cổ truyền</span>
                                         </label>
@@ -227,8 +227,8 @@
                     <div class="dropdown md:w-auto flex-1 mt-2">
                         <h2>Khác</h2>
                         <div class="relative w-64 border rounded-lg p-2 w-full md:w-auto flex-1 mt-2">
-                            <button class="dropdown-btn w-full flex justify-between px-4 py-2 rounded-lg">
-                                <span> <i class="fa-solid fa-plus me-2 text-green-300"></i></i>Thêm tiêu chí</span>
+                            <button class="dropdown-btn w-full flex justify-between px-4 py-2 rounded-lg overflow-hidden text-ellipsis whitespace-nowrap">
+                                <span> <i class="fa-solid fa-plus me-2 text-green-300 truncate max-w-[80%]"></i></i>Thêm tiêu chí</span>
                                 <i class="fa fa-chevron-down"></i>
                             </button>
                             <ul
@@ -237,103 +237,97 @@
                                 <div
                                     class="max-h-60 overflow-y-auto pr-2 space-y-2 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100">
                                     <h2 class="font-medium">Thời gian làm việc</h2>
-                                    <li
-                                        class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option1"
-                                            class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option1"
-                                            class="flex items-center space-x-2 text-gray-700 cursor-pointer">
-                                            <span>Làm trong tuần</span>
+                                    <div class="gap-4 mt-2">
+                                        <label class="flex items-center space-x-2">
+                                            <input type="radio" name="choose" value="specialty"
+                                                class="w-5 h-5 text-blue-600">
+                                            <span>Làm việc trong tuần</span>
                                         </label>
-                                    </li>
 
-                                    <li
-                                        class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option2"
-                                            class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option2"
-                                            class="flex items-center space-x-2 text-gray-700 cursor-pointer">
-                                            <span>Làm cả chủ nhật và ngày lễ</span>
+                                        <label class="flex items-center space-x-2 mt-2">
+                                            <input type="radio" name="choose" value="service"
+                                                class="w-5 h-5 text-blue-600">
+                                            <span>Làm cả chủ nhật và ngày nghỉ</span>
                                         </label>
-                                    </li>
+                                    </div>
                                     <h2 class="font-medium">Dịch vụ y tế</h2>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option2"
+                                        <input type="checkbox" id="option19"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option2"
+                                        <label for="option19"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Khám chuyên khoa</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option2"
+                                        <input type="checkbox" id="option20"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option2"
+                                        <label for="option20"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Khám từ xa</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option2"
+                                        <input type="checkbox" id="option21"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option2"
+                                        <label for="option21"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Khám tổng quát</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option2"
+                                        <input type="checkbox" id="option22"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option2"
+                                        <label for="option22"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Xét nghiệm y học</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option2"
+                                        <input type="checkbox" id="option23"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option2"
+                                        <label for="option23"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Sức khỏe tinh thần</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option2"
+                                        <input type="checkbox" id="option24"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option2"
+                                        <label for="option24"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Khám nha khoa</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option2"
+                                        <input type="checkbox" id="option25"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option2"
+                                        <label for="option25"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Gói giải phẫu</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option2"
+                                        <input type="checkbox" id="option26"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option2"
+                                        <label for="option26"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Bài test sức khỏe</span>
                                         </label>
                                     </li>
                                     <li
                                         class="flex items-center space-x-2 hover:bg-gray-100 rounded-md p-2 cursor-pointer">
-                                        <input type="checkbox" id="option2"
+                                        <input type="checkbox" id="option27"
                                             class="w-4 h-4 text-blue-600 rounded focus:ring-2 focus:ring-blue-400">
-                                        <label for="option2"
+                                        <label for="option27"
                                             class="flex items-center space-x-2 text-gray-700 cursor-pointer">
                                             <span>Y tế gần bạn</span>
                                         </label>
@@ -533,41 +527,41 @@
                 </div>
                 <!-- Nội dung bên phải -->
                 <div class="text-center md:text-left">
-                <h1 class="text-3xl font-bold mb-8">
-                    <span class="text-blue-500">TẠI SAO CHỌN </span>
-                    <span class="text-green-500">PHÒNG KHÁM TỐT</span>
-                </h1>
+                    <h1 class="text-3xl font-bold mb-8">
+                        <span class="text-blue-500">TẠI SAO CHỌN </span>
+                        <span class="text-green-500">PHÒNG KHÁM TỐT</span>
+                    </h1>
 
-                <!-- Lưới tổng -->
-                <div class="grid grid-cols-3 gap-6 justify-items-center text-center">
+                    <!-- Lưới tổng -->
+                    <div class="grid grid-cols-3 gap-6 justify-items-center text-center">
 
-                    <!-- Hàng trên -->
-                    <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
-                        <h2 class="text-[#22d69f] text-2xl font-bold">60,000 +</h2>
-                        <p class="text-gray-600 text-sm mt-1 font-bold ">Phòng Khám Uy Tín</p>
-                    </div>
-                    <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
-                        <h2 class="text-[#22d69f] text-2xl font-bold">8,000 +</h2>
-                        <p class="text-gray-600 text-sm mt-1 font-bold">Bác sĩ giỏi toàn quốc</p>
-                    </div>
-                    <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
-                        <h2 class="text-[#22d69f] text-2xl font-bold">20 +</h2>
-                        <p class="text-gray-600 text-sm mt-1 font-bold">Chuyên khoa</p>
-                    </div>
-
-                    <!-- Hàng dưới (2 card, nằm giữa) -->
-                    <div class="col-span-3 flex justify-center gap-6 mt-3">
+                        <!-- Hàng trên -->
                         <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
-                            <h2 class="text-[#22d69f] text-2xl font-bold">90,000 +</h2>
-                            <p class="text-gray-600 text-sm mt-1 font-bold">Khách hàng tìm kiếm</p>
+                            <h2 class="text-[#22d69f] text-2xl font-bold">60,000 +</h2>
+                            <p class="text-gray-600 text-sm mt-1 font-bold ">Phòng Khám Uy Tín</p>
                         </div>
                         <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
                             <h2 class="text-[#22d69f] text-2xl font-bold">8,000 +</h2>
-                            <p class="text-gray-600 text-sm mt-1 font-bold">Lịch hẹn khám</p>
+                            <p class="text-gray-600 text-sm mt-1 font-bold">Bác sĩ giỏi toàn quốc</p>
+                        </div>
+                        <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
+                            <h2 class="text-[#22d69f] text-2xl font-bold">20 +</h2>
+                            <p class="text-gray-600 text-sm mt-1 font-bold">Chuyên khoa</p>
+                        </div>
+
+                        <!-- Hàng dưới (2 card, nằm giữa) -->
+                        <div class="col-span-3 flex justify-center gap-6 mt-3">
+                            <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
+                                <h2 class="text-[#22d69f] text-2xl font-bold">90,000 +</h2>
+                                <p class="text-gray-600 text-sm mt-1 font-bold">Khách hàng tìm kiếm</p>
+                            </div>
+                            <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
+                                <h2 class="text-[#22d69f] text-2xl font-bold">8,000 +</h2>
+                                <p class="text-gray-600 text-sm mt-1 font-bold">Lịch hẹn khám</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
         {{-- Đánh giá của khách hàng --}}
