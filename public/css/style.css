@@ -1,0 +1,14 @@
+/* hover:shadow-xl transition (Hiệu ứng khi bỏ vào card)*/
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; /* Ẩn scrollbar trên Chrome, Safari */
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* Ẩn trên IE, Edge */
+    scrollbar-width: none;     /* Ẩn trên Firefox */
+  }
+}
+
+[x-cloak] { display: none !important; }
