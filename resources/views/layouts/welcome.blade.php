@@ -16,48 +16,58 @@
 
 <body class="font-sans text-gray-800">
     {{-- Header --}}
-    <header class="bg-white shadow-md sticky top-0 z-50">
-        <div class=" px-5 py-3 flex justify-between items-center">
-            <a href="http://127.0.0.1:8000/" class="logo-wrap">
-                <div class="flex items-center gap-3">
-                    <img src="https://phongkhamtot.com/logo.png" alt="Logo" class="h-10 w-auto">
-                </div>
+    <header x-data="{
+        openMenu: false,
+        openSearch: false
+    }" class="bg-white shadow-md sticky top-0 z-50">
+        <div class="px-4 md:px-6 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="http://127.0.0.1:8000/" class="flex items-center gap-3">
+                <img src="https://phongkhamtot.com/logo.png" alt="Logo" class="h-9 w-auto md:h-10">
             </a>
-            <nav class="hidden md:flex gap-6">
-                <div class="mt-2 px-2">
-                    <!-- Nút mở form tìm kiếm -->
-                    <div class="relative inline-flex items-center gap-2 cursor-pointer group" id="searchToggle">
+
+            <!-- Nút menu cho mobile -->
+            <button @click="openMenu = !openMenu" class="md:hidden p-2 border rounded text-gray-700">
+                ☰
+            </button>
+
+            <!-- Nav cho PC/Tablet -->
+            <nav class="hidden md:flex items-center gap-4 lg:gap-6">
+                <!-- Form tìm kiếm -->
+                <div class="relative" x-data="{ open: false }">
+                    <!-- Nút toggle -->
+                    <div class="inline-flex items-center gap-2 cursor-pointer group" @click="open = !open">
                         <div
                             class="absolute left-0 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-emerald-400 transition-all duration-300 group-hover:w-full group-hover:rounded-2xl">
                         </div>
                         <i
                             class="fa fa-search relative z-10 text-white text-xl flex items-center justify-center w-10 h-10"></i>
                         <span
-                            class="relative z-10 font-medium text-gray-800 transition-all duration-300 group-hover:text-white">
+                            class="relative z-10 font-medium text-gray-800 transition-all duration-300 group-hover:text-white hidden sm:inline">
                             Tìm kiếm
                         </span>
                     </div>
 
-                    <!-- Form tìm kiếm -->
-                    <div id="searchBox"
-                        class="hidden absolute left-0 mt-4 w-full bg-[#002566] p-6 rounded-lg shadow-lg border-t border-gray-100 z-50">
-                        <form action="{{ url('/') }}" method="get" class="flex flex-wrap gap-4 justify-center">
-                            <input type="text" name="keyWord" placeholder="Nhập tên phòng khám bạn muốn tìm kiếm..."
-                                class="w-full md:w-2/3 px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 outline-none p-4" />
+                    <!-- Form tìm kiếm ẩn -->
+                    <div x-cloak x-show="open" x-transition @click.away="open = false"
+                        class="absolute left-0 mt-4 w-full sm:w-[1030px] bg-[#002566] p-4 rounded-lg shadow-lg border-t border-gray-100 z-50">
+                        <form action="{{ url('/') }}" method="get" class="flex flex-col sm:flex-row gap-3">
+                            <input type="text" name="keyWord" placeholder="Nhập tên phòng khám..."
+                                class="flex-1 px-3 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 outline-none" />
                             <button type="submit"
-                                class="px-6 py-2 bg-[#22d69f] text-white font-semibold rounded-lg hover:opacity-90 transition">
+                                class="px-4 py-2 bg-[#22d69f] text-white font-semibold rounded-lg hover:opacity-90 transition">
                                 Tìm nhanh
                             </button>
                         </form>
                     </div>
                 </div>
-                <div class="relative group inline-block mt-4">
-                    <!-- Nút chính -->
+
+                <!-- Menu items -->
+                <div class="relative group">
                     <a href="http://127.0.0.1:8000/duocquantam"
-                        class="px-4 py-2 rounded-md text-gray-700 hover:bg-gray-200 transition duration-200 mt-4 font-medium">
+                        class="px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 transition font-medium">
                         Được quan tâm nhất
                     </a>
-                    <!-- Dropdown menu -->
                     <div
                         class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-40 text-gray-700">
                         <a href="http://127.0.0.1:8000/nhakhoa" class="block px-4 py-2 hover:bg-gray-100">Nha khoa</a>
@@ -68,16 +78,15 @@
                             viện</a>
                     </div>
                 </div>
+
                 <a href="http://127.0.0.1:8000/bacsigioi"
-                    class="px-4 py-2 rounded-md text-gray-700 hover:bg-gray-200 transition duration-200 mt-2 font-medium">Bác
-                    sĩ giỏi</a>
+                    class="px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 transition font-medium">Bác sĩ giỏi</a>
                 <a href="http://127.0.0.1:8000/blog"
-                    class="px-4 py-2 rounded-md text-gray-700 hover:bg-gray-200 transition duration-200 mt-2 font-medium">Blog</a>
+                    class="px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 transition font-medium">Blog</a>
                 <a href="http://127.0.0.1:8000/huongdan"
-                    class="px-4 py-2 rounded-md text-gray-700 hover:bg-gray-200 transition duration-200 mt-2 font-medium">Hướng
-                    dẫn</a>
+                    class="px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 transition font-medium">Hướng dẫn</a>
                 <!-- Nút Đăng nhập -->
-                <div x-data="{ dangnhap: false, dangky: false }" class="relative mt-4">
+                <div x-data="{ dangnhap: false, dangky: false }" class="relative mt">
                     <!-- Nút mở form đăng nhập -->
                     <a href="#" @click.prevent="dangnhap = true"
                         class="px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-200 transition duration-200 mt-2 font-medium">
@@ -193,48 +202,33 @@
                         </div>
                     </div>
                 </div>
-                <a href="http://127.0.0.1:8000/dangtin" class="mt-2"><button
-                        class="bg-[#22d69f] text-white px-4 py-2 rounded-lg hover:bg-red-500 ms-2">Đăng tin<i
-                            class="fa-solid fa-paper-plane ms-2"></i></button></a>
+                <!-- Nút đăng tin -->
+                <a href="http://127.0.0.1:8000/dangtin"
+                    class="bg-[#22d69f] text-white px-4 py-2 rounded-lg hover:bg-red-500 transition flex items-center">
+                    Đăng tin
+                    <i class="fa-solid fa-paper-plane ms-2"></i>
+                </a>
             </nav>
-            {{-- Nút menu mobile --}}
-            <button id="menu-btn" class="md:hidden p-2 border rounded">
-                ☰
-            </button>
         </div>
 
-        {{-- Menu mobile --}}
-        <div id="mobile-menu" class="hidden flex-col bg-gray-100 md:hidden">
-            <div class="relative group inline-block mt-4">
-                <!-- Nút chính -->
-                <a href="http://127.0.0.1:8000/duocquantam"
-                    class="px-4 py-2 rounded-md text-gray-700 hover:bg-gray-200 transition duration-200 mt-4 font-medium">
-                    Được quan tâm nhất
-                </a>
-                <!-- Dropdown menu -->
-                <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-40 text-gray-700">
-                    <a href="http://127.0.0.1:8000/nhakhoa" class="block px-4 py-2 hover:bg-gray-100">Nha khoa</a>
-                    <a href="http://127.0.0.1:8000/dalieu" class="block px-4 py-2 hover:bg-gray-100">Da liễu</a>
-                    <a href="http://127.0.0.1:8000/ranghammat" class="block px-4 py-2 hover:bg-gray-100">Răng hàm
-                        mặt</a>
-                    <a href="http://127.0.0.1:8000/thammyvien" class="block px-4 py-2 hover:bg-gray-100">Thẩm mỹ
-                        viện</a>
-                </div>
-            </div>
-            <a href="http://127.0.0.1:8000/bacsigioi"
-                class="px-4 py-2 rounded-md text-gray-700 hover:bg-gray-200 transition duration-200 mt-2 font-medium">Bác
-                sĩ giỏi</a>
-            <a href="http://127.0.0.1:8000/blog"
-                class="px-4 py-2 rounded-md text-gray-700 hover:bg-gray-200 transition duration-200 mt-2 font-medium">Blog</a>
-            <a href="http://127.0.0.1:8000/blog"
-                class="px-4 py-2 rounded-md text-gray-700 hover:bg-gray-200 transition duration-200 mt-2 font-medium">Hướng
-                dẫn</a>
+        <!-- Menu mobile -->
+        <div x-show="openMenu" x-transition
+            class="flex flex-col bg-gray-50 border-t md:hidden text-gray-800 px-5 py-3 space-y-2">
+            <a href="http://127.0.0.1:8000/duocquantam" class="block py-2 hover:bg-gray-200 rounded-md">Được quan tâm
+                nhất</a>
+            <a href="http://127.0.0.1:8000/bacsigioi" class="block py-2 hover:bg-gray-200 rounded-md">Bác sĩ giỏi</a>
+            <a href="http://127.0.0.1:8000/blog" class="block py-2 hover:bg-gray-200 rounded-md">Blog</a>
+            <a href="http://127.0.0.1:8000/huongdan" class="block py-2 hover:bg-gray-200 rounded-md">Hướng dẫn</a>
             <a href="http://127.0.0.1:8000/dangnhap"
-                class="px-4 py-2 rounded-md text-gray-700 hover:bg-gray-200 transition duration-200 mt-2 font-medium"><i
-                    class="fa-solid fa-right-from-bracket me-2"></i>Đăng ký/Đăng nhập</a>
-            <a href="http://127.0.0.1:8000/dangtin" class="mt-2"><button
-                    class="bg-[#22d69f] text-white px-4 py-2 rounded-lg hover:bg-red-500 ms-2">Đăng tin<i
-                        class="fa-solid fa-paper-plane ms-2"></i></button></a>
+                class="block bg-blue-500 text-white text-center py-2 rounded-lg hover:bg-blue-600 transition">
+                Đăng nhập
+                <i class="fa-solid fa-right-to-bracket ms-2"></i>
+            </a>
+            <a href="http://127.0.0.1:8000/dangtin"
+                class="block bg-[#22d69f] text-white text-center py-2 rounded-lg hover:bg-red-500 transition">
+                Đăng tin
+                <i class="fa-solid fa-paper-plane ms-2"></i>
+            </a>
         </div>
     </header>
 

@@ -193,7 +193,7 @@
                 </li>
             </ul>
         </div>
-        <div class="grid grid-cols-4 mt-5 gap-4">
+        <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 w-full">
             <a class="" >
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/jpb3/img_doctor03.jpg" alt="" class="h-[300px] w-full bg-blue-500">
                 <p class="font-medium text-xl mt-2">Nguyễn Bảo Trọng</p>

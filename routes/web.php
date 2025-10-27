@@ -6,6 +6,13 @@ Route::get('/', function () {
     return view('layouts/welcome');
 });
 
+Route::get('/dangnhap', function () {
+    return view('layouts/dangnhap');
+});
+Route::get('/dangky', function () {
+    return view('layouts/dangky');
+});
+
 Route::post('/dangnhap', function () {
     // Xử lý đăng nhập ở đây (nếu cần)
 })->name('dangnhap');

@@ -3,32 +3,6 @@ import Alpine from 'alpinejs'
 window.Alpine = Alpine
 Alpine.start()
 
-document.addEventListener("DOMContentLoaded", function () {
-    console.log("Dropdown JS loaded ✅");
-});
-
-// Script bật/tắt form tìm kiếm
-document.addEventListener('DOMContentLoaded', function () {
-    const toggle = document.getElementById('searchToggle');
-    const box = document.getElementById('searchBox');
-
-    toggle.addEventListener('click', (e) => {
-        e.stopPropagation();
-        box.classList.toggle('hidden');
-    });
-
-    document.addEventListener('click', () => {
-        box.classList.add('hidden');
-    });
-});
-
-
-const menuBtn = document.getElementById('menu-btn');
-const mobileMenu = document.getElementById('mobile-menu');
-menuBtn.addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
-});
-
 // js dropdown dropdown
 document.addEventListener("DOMContentLoaded", () => {
     // Lấy tất cả dropdown trên trang
@@ -66,10 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Click ra ngoài để đóng tất cả dropdown
-    document.addEventListener("click", () => {
-        document.querySelectorAll(".dropdown-menu").forEach((m) => m.classList.add("hidden"));
-    });
 });
 
 
