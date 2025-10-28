@@ -173,9 +173,13 @@ Route::get('/quanlytin', function () {
 Route::get('/dangtin', function () {
     return view('page.dangtin');
 });
+
 Route::get('/lienhe', function () {
     return view('page.lienhe');
 });
 
+Route::get('/ttbacsi', function () {
+    return view('blog.ttbacsi');
+});
 
 

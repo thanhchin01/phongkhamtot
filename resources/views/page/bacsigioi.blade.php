@@ -2,55 +2,68 @@
 @section('title', 'Thông báo')
 
 @section('content')
-    <div class="bg-gradient-to-b from-white to-blue-50 py-16 px-8">
+    <section class="bg-gradient-to-b from-white to-blue-50 py-16 px-8" x-data x-init="const counters = document.querySelectorAll('[data-target]');
+    counters.forEach(counter => {
+        let start = 0;
+        const target = +counter.getAttribute('data-target');
+        const duration = 1500; // thời gian hoàn thành (ms)
+        const stepTime = 20; // thời gian mỗi bước
+        const increment = target / (duration / stepTime);
+
+        const timer = setInterval(() => {
+            start += increment;
+            if (start >= target) {
+                counter.innerText = target.toLocaleString();
+                clearInterval(timer);
+            } else {
+                counter.innerText = Math.floor(start).toLocaleString();
+            }
+        }, stepTime);
+    });">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-            <!-- Ảnh bên trái -->
             <div class="relative flex justify-center">
-                <!-- Hình nền màu xanh lá và xanh dương -->
                 <div class="absolute w-3/4 h-3/4 bg-[#22d69f] top-8 left-6 rounded-lg -z-10"></div>
                 <div class="absolute w-2/3 h-3/4 bg-blue-500 top-24 right-0 rounded-lg -z-10"></div>
-
                 <img src="https://phongkhamtot.com/frontend/home/images/box_data_img.jpg" alt="Bác sĩ"
                     class="relative max-w-full" />
             </div>
-            <!-- Nội dung bên phải -->
+
             <div class="text-center md:text-left">
                 <h1 class="text-3xl font-bold mb-8">
                     <span class="text-blue-500">TẠI SAO CHỌN </span>
                     <span class="text-green-500">PHÒNG KHÁM TỐT</span>
                 </h1>
-                <!-- Lưới tổng -->
-                <div class="grid grid-cols-3 gap-6 justify-items-center text-center">
 
-                    <!-- Hàng trên -->
+                <div class="grid grid-cols-3 gap-6 justify-items-center text-center">
                     <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
-                        <h2 class="text-[#22d69f] text-2xl font-bold">60,000 +</h2>
-                        <p class="text-gray-600 text-sm mt-1 font-bold ">Phòng Khám Uy Tín</p>
+                        <h2 class="text-[#22d69f] text-2xl font-bold" data-target="60000">0</h2>
+                        <p class="text-gray-600 text-sm mt-1 font-bold">Phòng Khám Uy Tín</p>
                     </div>
+
                     <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
-                        <h2 class="text-[#22d69f] text-2xl font-bold">8,000 +</h2>
+                        <h2 class="text-[#22d69f] text-2xl font-bold" data-target="8000">0</h2>
                         <p class="text-gray-600 text-sm mt-1 font-bold">Bác sĩ giỏi toàn quốc</p>
                     </div>
+
                     <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
-                        <h2 class="text-[#22d69f] text-2xl font-bold">20 +</h2>
+                        <h2 class="text-[#22d69f] text-2xl font-bold" data-target="20">0</h2>
                         <p class="text-gray-600 text-sm mt-1 font-bold">Chuyên khoa</p>
                     </div>
-                    <!-- Hàng dưới (2 card, nằm giữa) -->
+
                     <div class="col-span-3 flex justify-center gap-6 mt-3">
                         <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
-                            <h2 class="text-[#22d69f] text-2xl font-bold">90,000 +</h2>
+                            <h2 class="text-[#22d69f] text-2xl font-bold" data-target="90000">0</h2>
                             <p class="text-gray-600 text-sm mt-1 font-bold">Khách hàng tìm kiếm</p>
                         </div>
                         <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
-                            <h2 class="text-[#22d69f] text-2xl font-bold">8,000 +</h2>
+                            <h2 class="text-[#22d69f] text-2xl font-bold" data-target="8000">0</h2>
                             <p class="text-gray-600 text-sm mt-1 font-bold">Lịch hẹn khám</p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
-    </div>
+    </section>
     <div class="text-center mt-4">
         <span class="text-sm"><a href="http://127.0.0.1:8000/" class="hover:text-[#22d69f]">Trang chủ</a>/ Bác sĩ
             giỏi</span>
@@ -194,8 +207,9 @@
             </ul>
         </div>
         <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 w-full">
-            <a class="" >
-                <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/jpb3/img_doctor03.jpg" alt="" class="h-[300px] w-full bg-blue-500">
+            <a href="http://127.0.0.1:8000/ttbacsi">
+                <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/jpb3/img_doctor03.jpg" alt=""
+                    class="h-[300px] w-full bg-blue-500">
                 <p class="font-medium text-xl mt-2">Nguyễn Bảo Trọng</p>
                 <div class="text-yellow-500 mt-2">
                     <i class="fa-solid fa-star"></i>

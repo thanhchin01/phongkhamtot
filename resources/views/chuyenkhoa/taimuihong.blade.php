@@ -8,7 +8,7 @@
             <span class="font-medium">280</span>
             <p>phòng khám đang chờ bạn</p>
         </div>
-        <div id="cardContainer" class="grid grid-cols-4 gap-4 mt-5">
+        <div id="cardContainer" class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 w-full">
             <a href="https://phongkhamtot.com/phong-kham-tu/phong-kham-da-lieu-bs-cki-le-dong"
                 class="relative inline-block group">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/Phong%20kham%20Da%20li%E1%BB%85u%20BS_CKI%20Le%20Dong.jpg"

@@ -8,7 +8,7 @@
         <h1 class="text-3xl font-bold text-blue-500 mt-4">THÔNG BÁO</h1>
         <div class="flex gap-4">
             <div class="w-9/12 p-5 gap-4">
-                <div class="grid grid-cols-3 gap-4 flex flex-col">
+                <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 w-fullflex flex-col">
                     <a class="h-[210px]items-center justify-center shadow-lg rounded-2xl bg-white mt-3">
                         <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/nhakhoavenus/phong-khma-nha-khoa-bao-viet.jpg"
                             alt="" class="w-full h-[150px] transition duration-300 hover:scale-105 rounded-xl">

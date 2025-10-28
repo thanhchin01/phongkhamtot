@@ -63,7 +63,7 @@
                 <p class="text-gray-500 mt-3">Bạn cần hỗ trợ <span class="text-green-500">Tìm kiếm, Đăng tin. Thanh
                         toán?</span> Liên hệ với chúng tôi ngay qua các hình thức:</p>
             </div>
-            <div class="grid grid-cols-4 mt-4 gap-6">
+            <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 w-full">
                 <!-- Card 1 -->
                 <div class="items-center justify-center shadow-lg rounded-2xl p-4 text-center">
                     <img src="https://phongkhamtot.com/frontend/home/images/icons/icon_mail.svg" alt=""
