@@ -1,5 +1,4 @@
-/* hover:shadow-xl transition (Hiệu ứng khi bỏ vào card)*/
-
+/* @import "tailwindcss"; */
 @layer utilities {
   .no-scrollbar::-webkit-scrollbar {
     display: none; /* Ẩn scrollbar trên Chrome, Safari */
@@ -12,3 +11,5 @@
 }
 
 [x-cloak] { display: none !important; }
+
+

@@ -2,7 +2,7 @@
 @section('title', 'Được Quan Tâm Nhất')
 
 @section('content')
-<div class="main-body p-3 mt-2 container mx-auto">
+<div class="main-body p-3 mt-2 max-w-[1200px] mx-auto">
     <span class="text-sm">
         <a href="http://127.0.0.1:8000/" class="hover:text-[#22d69f]">Trang chủ</a> / Liên hệ
     </span>

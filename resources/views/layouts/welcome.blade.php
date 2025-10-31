@@ -7,11 +7,12 @@
     <title>Phòng Khám Tốt</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {{-- @vite(['resources/css/style.css', 'resources/js/app.js']) --}}
     {{-- Tailwind CDN (chạy ngay, không cần build) --}}
     <script src="https://cdn.tailwindcss.com"></script>
 
     {{-- CSS riêng của bạn --}}
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    @vite(['resources/css/style.css'])
 </head>
 
 <body class="font-sans text-gray-800">
@@ -32,7 +33,7 @@
             </button>
 
             <!-- Nav cho PC/Tablet -->
-            <nav class="hidden md:flex items-center gap-4 lg:gap-6">
+            <nav class="hidden md:flex items-center gap-4 lg:gap-4">
                 <!-- Form tìm kiếm -->
                 <div class="relative" x-data="{ open: false }">
                     <!-- Nút toggle -->
@@ -48,19 +49,21 @@
                         </span>
                     </div>
 
-                    <!-- Form tìm kiếm ẩn -->
+                    <!-- Form tìm kiếm ẩn-->
                     <div x-cloak x-show="open" x-transition @click.away="open = false"
-                        class="absolute left-0 mt-4 w-full sm:w-[1030px] bg-[#002566] p-4 rounded-lg shadow-lg border-t border-gray-100 z-50">
-                        <form action="{{ url('/') }}" method="get" class="flex flex-col sm:flex-row gap-3">
+                        class="fixed top-[64px] left-0 w-full bg-[#002566] p-4 sm:p-6 shadow-lg border-t border-gray-200 z-50">
+                        <form action="{{ url('/') }}" method="get"
+                            class="max-w-7xl mx-auto flex flex-col sm:flex-row gap-3">
                             <input type="text" name="keyWord" placeholder="Nhập tên phòng khám..."
-                                class="flex-1 px-3 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 outline-none" />
+                                class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-emerald-400 outline-none text-gray-800" />
                             <button type="submit"
-                                class="px-4 py-2 bg-[#22d69f] text-white font-semibold rounded-lg hover:opacity-90 transition">
+                                class="px-6 py-3 bg-[#22d69f] text-white font-semibold rounded-lg hover:opacity-90 transition">
                                 Tìm nhanh
                             </button>
                         </form>
                     </div>
                 </div>
+
 
                 <!-- Menu items -->
                 <div class="relative group">
@@ -69,7 +72,7 @@
                         Được quan tâm nhất
                     </a>
                     <div
-                        class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-40 text-gray-700">
+                        class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-40 text-gray-700 z-50">
                         <a href="http://127.0.0.1:8000/nhakhoa" class="block px-4 py-2 hover:bg-gray-100">Nha khoa</a>
                         <a href="http://127.0.0.1:8000/dalieu" class="block px-4 py-2 hover:bg-gray-100">Da liễu</a>
                         <a href="http://127.0.0.1:8000/ranghammat" class="block px-4 py-2 hover:bg-gray-100">Răng hàm
@@ -237,8 +240,8 @@
     </main>
 
     {{-- footer --}}
-    <footer class="bg-light shadow mt-6 gap-4">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-left">
+    <footer class="bg-light shadow-lg mt-20 gap-4 border-t border-gray-300">
+        <div class="max-w-[1500px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-left p-4">
             <div class="p-4 flex-1 leading-[70px]">
                 <img src="https://phongkhamtot.com/logo.png" alt="" class="w-64 h-17">
                 <h1 class="ms-2 text-left text-xl font-normal mt-2">Thành viên của Công ty TNHH OHI</h1>

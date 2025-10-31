@@ -4,7 +4,7 @@
 @section('content')
     <div class="main-body p-3 mt-2 container mx-auto">
         <span class="text-sm"><a href="/" class="hover:text-[#22d69f]">Trang chủ</a> / Blog</span>
-        <h1 class="mt-5 text-4xl text-blue-500 font-bold">BLOG</h1>
+        <h1 class="mt-5 text-3xl text-blue-500 font-bold">BLOG</h1>
 
         <!-- Dùng grid để chia layout -->
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-6">

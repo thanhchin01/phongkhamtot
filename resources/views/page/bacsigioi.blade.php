@@ -20,7 +20,7 @@
             }
         }, stepTime);
     });">
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+        <div class="max-w-[1500px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-3 container">
             <div class="relative flex justify-center">
                 <div class="absolute w-3/4 h-3/4 bg-[#22d69f] top-8 left-6 rounded-lg -z-10"></div>
                 <div class="absolute w-2/3 h-3/4 bg-blue-500 top-24 right-0 rounded-lg -z-10"></div>
@@ -53,7 +53,7 @@
                     <div class="col-span-3 flex justify-center gap-6 mt-3">
                         <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
                             <h2 class="text-[#22d69f] text-2xl font-bold" data-target="90000">0</h2>
-                            <p class="text-gray-600 text-sm mt-1 font-bold">Khách hàng tìm kiếm</p>
+                            <p class="text-gray-600 text-sm mt-1 font-bold whitespace-nowrap">Khách hàng tìm kiếm</p>
                         </div>
                         <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
                             <h2 class="text-[#22d69f] text-2xl font-bold" data-target="8000">0</h2>
@@ -69,7 +69,7 @@
             giỏi</span>
         <h1 class="mt-3 text-3xl text-blue-500 font-bold">BÁC SĨ GIỎI</h1>
     </div>
-    <div class="relative w-full">
+    <div class="max-w-[1400px] mx-auto relative w-full">
         <!-- Nút cuộn trái -->
         <button id="scrollLeft"
             class="absolute left-4 top-1/2 -translate-y-1/2 bg-white shadow-md rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 transition z-10">
@@ -82,97 +82,97 @@
         </button>
         <!-- Dãy card -->
         <div id="serviceList"
-            class="grid grid-flow-col auto-cols-[minmax(13rem,1fr)] gap-4 mt-5 overflow-x-auto scroll-smooth no-scrollbar px-10">
+            class="max-w-[1300px] mx-auto grid grid-flow-col auto-cols-[minmax(13rem,1fr)] gap-4 mt-5 overflow-x-auto scroll-smooth no-scrollbar px-10">
             <!-- Card -->
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl w-52 h-52 p-6 transition text-center">
                 <img src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_14.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2">
-                <h2 class="p-3 text-xl font-medium">Cơ Xương Khớp</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Cơ Xương Khớp</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl w-52 h-52 p-6 transition text-center">
                 <img src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_1.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2">
-                <h2 class="p-3 text-xl font-medium">Da Liễu</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Da Liễu</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl w-52 h-52 p-6 transition text-center">
                 <img src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_2.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2">
-                <h2 class="p-3 text-xl font-medium">Hô Hấp</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Hô Hấp</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                     src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_13.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
-                <h2 class="p-3 text-xl font-medium">Ngoại Khoa</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Ngoại Khoa</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                     src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_4.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
-                <h2 class="p-3 text-xl font-medium">Nha Khoa</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Nha Khoa</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                     src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_5.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
-                <h2 class="p-3 text-xl font-medium">Nhi Khoa</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Nhi Khoa</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                     src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_10.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
-                <h2 class="p-3 text-xl font-medium">Nội Khoa</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Nội Khoa</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg text-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                     src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_6.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
-                <h2 class="p-3 text-xl font-medium">Phục Hồi Chức Năng</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Phục Hồi Chức Năng</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg text-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                     src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_7.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
-                <h2 class="p-3 text-xl font-medium">Răng Hàm Mặt</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Răng Hàm Mặt</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                     src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_3.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
-                <h2 class="p-3 text-xl font-medium">Sản Phụ Khoa</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Sản Phụ Khoa</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                     src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_9.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
-                <h2 class="p-3 text-xl font-medium">Tai Mũi Họng</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Tai Mũi Họng</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                     src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_8.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
-                <h2 class="p-3 text-xl font-medium">Thẩm Mỹ Viện</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Thẩm Mỹ Viện</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                     src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_11.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
-                <h2 class="p-3 text-xl font-medium">Tim Mạch</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Tim Mạch</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                     src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_12.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
-                <h2 class="p-3 text-xl font-medium">Ung Bướu</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Ung Bướu</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg text-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                     src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_13.png" alt=""
                     class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
-                <h2 class="p-3 text-xl font-medium">Xét Nghiệm Y Khoa</h2>
+                <h2 class="p-3 text-lg whitespace-nowrap font-medium">Xét Nghiệm Y Khoa</h2>
             </a>
             <a href="#"
                 class="flex flex-col items-center justify-center shadow-lg text-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
@@ -209,7 +209,7 @@
         <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 w-full">
             <a href="http://127.0.0.1:8000/ttbacsi">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/jpb3/img_doctor03.jpg" alt=""
-                    class="h-[300px] w-full bg-blue-500">
+                    class="h-[300px] w-full bg-blue-500 rounded-lg">
                 <p class="font-medium text-xl mt-2">Nguyễn Bảo Trọng</p>
                 <div class="text-yellow-500 mt-2">
                     <i class="fa-solid fa-star"></i>
@@ -227,7 +227,7 @@
             </a>
             <a>
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/bac-si-phong-min.jpg"
-                    alt="" class="h-[300px] w-full">
+                    alt="" class="h-[300px] w-full rounded-lg">
                 <p class="font-medium text-lg mt-2">Bác Sĩ CKI Châu Thanh Phong</p>
                 <div class="text-yellow-500 mt-2">
                     <i class="fa-solid fa-star"></i>
@@ -245,7 +245,7 @@
             </a>
             <a>
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/pngtree-flat-illustration-of-a-male-doctor-avatar-upper-body-in-youth-vector-picture-image_10580735.png"
-                    alt="" class="h-[300px] w-full bg-blue-500">
+                    alt="" class="h-[300px] w-full bg-blue-500 rounded-lg">
                 <p class="font-medium text-lg mt-2">Bác sĩ Lâm Đăng Khoa</p>
                 <div class="text-yellow-500 mt-2">
                     <i class="fa-solid fa-star"></i>
@@ -263,7 +263,7 @@
             </a>
             <a>
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/pngtree-flat-illustration-of-a-male-doctor-avatar-upper-body-in-youth-vector-picture-image_10580735.png"
-                    alt="" class="h-[300px] w-full bg-blue-500">
+                    alt="" class="h-[300px] w-full bg-blue-500 rounded-lg">
                 <p class="font-medium text-lg mt-2">Bác sĩ Trịnh Quang Ngọc</p>
                 <div class="text-yellow-500 mt-2">
                     <i class="fa-solid fa-star"></i>
@@ -281,7 +281,7 @@
             </a>
             <a>
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/bac-si-Pascal-Oxeda.jpg"
-                    alt="" class="h-[300px]">
+                    alt="" class="h-[300px] rounded-lg">
                 <p class="font-medium text-lg mt-2">Tiến sĩ, bác sĩ Oxeda:</p>
                 <div class="text-yellow-500 mt-2">
                     <i class="fa-solid fa-star"></i>
@@ -299,7 +299,7 @@
             </a>
             <a>
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/bac-si-Alain-Michel.jpg"
-                    alt="" class="h-[300px]">
+                    alt="" class="h-[300px] rounded-lg">
                 <p class="font-medium text-lg mt-2">Thạc sĩ, bác sĩ Alain Michel</p>
                 <div class="text-yellow-500 mt-2">
                     <i class="fa-solid fa-star"></i>
@@ -317,7 +317,7 @@
             </a>
             <a>
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/bac-si-huong-min.jpg"
-                    alt="" class="h-[300px] w-full">
+                    alt="" class="h-[300px] w-full rounded-lg">
                 <p class="font-medium text-lg mt-2">Bác sĩ Ngô Thị Vân Hương</p>
                 <div class="text-yellow-500 mt-2">
                     <i class="fa-solid fa-star"></i>
@@ -335,7 +335,7 @@
             </a>
             <a>
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/bac-si-thang.jpg"
-                    alt="" class="h-[300px]">
+                    alt="" class="h-[300px] rounded-lg">
                 <p class="font-medium text-lg mt-2">Bác sĩ Philip Thang Nguyen</p>
                 <div class="text-yellow-500 mt-2">
                     <i class="fa-solid fa-star"></i>

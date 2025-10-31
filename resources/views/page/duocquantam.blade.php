@@ -2,7 +2,7 @@
 @section('title', 'Được Quan Tâm Nhất')
 
 @section('content')
-    <div class="shadow-lg p-6 gap-4">
+    <div class="gap-6">
         <h1 class="text-3xl text-blue-500 font-bold">ĐƯỢC QUAN TÂM NHẤT</h1>
         <div class="flex flex-cols gap-2 mt-4">
             <span class="font-medium">375</span>
@@ -521,6 +521,6 @@
                 <span><i class="fa-solid fa-location-dot me-2"></i>Số 7 Yết Kiêu Phường Thuận Hòa</span>
             </a>
         </div>
-        <div id="pagination" class="flex justify-lest mt-6 space-x-2"></div>
+        <div id="pagination" class="mt-6 space-x-2"></div>
     </div>
 @endsection

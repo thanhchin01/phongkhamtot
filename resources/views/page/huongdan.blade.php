@@ -3,10 +3,10 @@
 
 @section('content')
     <div class="main-body p-3 mt-2 container mx-auto">
-        <span class="text-sm"><a href="http://127.0.0.1:8000/" class="hover:text-[#22d69f]">Trang chủ</a>/ <a
+        <span class="text-sm sticky top-20 self-start"><a href="http://127.0.0.1:8000/" class="hover:text-[#22d69f]">Trang chủ</a>/ <a
                 href="http://127.0.0.1:8000/huongdan" class="hover:text-[#22d69f]">Hướng dẫn</a></span>
         <div class="flex gap-4">
-            <div class="w-4/12 p-4 gap-4 flex flex-col">
+            <div class="w-4/12 p-4 gap-4 flex flex-col sticky top-24 self-start">
                 <a href="http://127.0.0.1:8000/huongdan" class="bg-blue-500 px-4 py-3 rounded-lg font-bold">Hưỡng dẫn tìm kiếm</a>
                 <a href="http://127.0.0.1:8000/hdtaotaikhoan" class="bg-gray-200 px-4 py-3 rounded-lg font-bold">Tạo tài khoản</a>
                 <a href="http://127.0.0.1:8000/hddangtin" class="bg-gray-200 px-4 py-3 rounded-lg font-bold">Hưỡng dẫn đăng tin</a>

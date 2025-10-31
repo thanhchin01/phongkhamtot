@@ -351,83 +351,83 @@
             </div>
         </div>
         {{-- Dịch vụ toàn diện --}}
-        <section class="p-6 text-center mt-4">
+        <section class="max-w-[1250px] mx-auto p-6 text-center mt-4">
             <h1 class="font-bold text-blue-500 text-3xl text-blue-600">DỊCH VỤ TOÀN DIỆN</h1>
-            <h4 class="mt-3">Bạn quan tâm đến Dịch vụ nào, vui lòng chọ</h4>
+            <h4 class="mt-3">Bạn quan tâm đến Dịch vụ nào, vui lòng chọn</h4>
             <div
                 class="max-w-8xl p-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 px-4 sm:px-6 md:px-10 text-center">
                 <a href="http://127.0.0.1:8000/khamchuyenkhoa"
-                    class="flex items-center gap-3 px-6 py-3 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
+                    class="flex items-center justify-center h-16 gap-3 px-4 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
                     <img src="https://phongkhamtot.com/frontend/home/images/img_service.png" alt="icon"
                         class="w-10 h-10 rounded-full bg-white p-1">
-                    <span class="font-semibold text-lg">Khám Chuyên khoa</span>
+                    <span class="font-semibold text-base whitespace-nowrap">Khám Chuyên khoa</span>
                 </a>
                 <a href="http://127.0.0.1:8000/khamtuxa"
-                    class="flex items-center gap-3 px-7 py-5 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
+                    class="flex items-center justify-center h-16 gap-3 px-4 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
                     <img src="https://phongkhamtot.com/frontend/home/images/img_service.png" alt="icon"
                         class="w-10 h-10 rounded-full bg-white p-1">
-                    <span class="font-semibold text-lg">Khám Từ Xa</span>
+                    <span class="font-semibold text-base whitespace-nowrap">Khám Từ Xa</span>
                 </a>
                 <a href="http://127.0.0.1:8000/khamtongquat"
-                    class="flex items-center gap-3 px-7 py-5 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
+                    class="flex items-center justify-center h-16 gap-3 px-4 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
                     <img src="https://phongkhamtot.com/frontend/home/images/img_service.png" alt="icon"
                         class="w-10 h-10 rounded-full bg-white p-1">
-                    <span class="font-semibold text-lg">Khám Tổng Quát</span>
+                    <span class="font-semibold text-base whitespace-nowrap">Khám Tổng Quát</span>
                 </a>
                 <a href="http://127.0.0.1:8000/xetnghiemyhoc"
-                    class="flex items-center gap-3 px-7 py-5 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
+                    class="flex items-center justify-center h-16 gap-3 px-4 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
                     <img src="https://phongkhamtot.com/frontend/home/images/img_service.png" alt="icon"
                         class="w-10 h-10 rounded-full bg-white p-1">
-                    <span class="font-semibold text-lg">Xét Nghiệm Y Học</span>
+                    <span class="font-semibold text-base whitespace-nowrap">Xét Nghiệm Y Học</span>
                 </a>
                 <a href="http://127.0.0.1:8000/suckhoetinhthan"
-                    class="flex items-center gap-3 px-7 py-5 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
+                    class="flex items-center justify-center h-16 gap-3 px-4 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
                     <img src="https://phongkhamtot.com/frontend/home/images/img_service.png" alt="icon"
                         class="w-10 h-10 rounded-full bg-white p-1">
-                    <span class="font-semibold text-lg">Sức Khỏe Tinh Thần</span>
+                    <span class="font-semibold text-base whitespace-nowrap">Sức Khỏe Tinh Thần</span>
                 </a>
                 <a href="http://127.0.0.1:8000/khamnhakhoa"
-                    class="flex items-center gap-3 px-7 py-5 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
+                    class="flex items-center justify-center h-16 gap-3 px-4 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
                     <img src="https://phongkhamtot.com/frontend/home/images/img_service.png" alt="icon"
                         class="w-10 h-10 rounded-full bg-white p-1">
-                    <span class="font-semibold text-lg">Khám Nha Khoa</span>
+                    <span class="font-semibold text-base whitespace-nowrap">Khám Nha Khoa</span>
                 </a>
                 <a href="http://127.0.0.1:8000/goiphauthuat"
-                    class="flex items-center gap-3 px-7 py-5 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
+                    class="flex items-center justify-center h-16 gap-3 px-4 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
                     <img src="https://phongkhamtot.com/frontend/home/images/img_service.png" alt="icon"
                         class="w-10 h-10 rounded-full bg-white p-1">
-                    <span class="font-semibold text-lg">Gói Phẫu Thuật</span>
+                    <span class="font-semibold text-base whitespace-nowrap">Gói Phẫu Thuật</span>
                 </a>
                 <a href="http://127.0.0.1:8000/songkhoetieuduong"
-                    class="flex items-center gap-3 px-7 py-5 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
+                    class="flex items-center justify-center h-16 gap-3 px-4 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
                     <img src="https://phongkhamtot.com/frontend/home/images/img_service.png" alt="icon"
                         class="w-10 h-10 rounded-full bg-white p-1">
-                    <span class="font-semibold text-lg">Sống Khỏe Tiểu Đường</span>
+                    <span class="font-semibold text-base whitespace-nowrap">Sống Khỏe Tiểu Đường</span>
                 </a>
                 <a href="http://127.0.0.1:8000/baitestsuckhoe"
-                    class="flex items-center gap-3 px-7 py-5 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
+                    class="flex items-center justify-center h-16 gap-3 px-4 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
                     <img src="https://phongkhamtot.com/frontend/home/images/img_service.png" alt="icon"
                         class="w-10 h-10 rounded-full bg-white p-1">
-                    <span class="font-semibold text-lg">Bài Test Sức Khỏe</span>
+                    <span class="font-semibold text-base whitespace-nowrap">Bài Test Sức Khỏe</span>
                 </a>
                 <a href="http://127.0.0.1:8000/yteganban"
-                    class="flex items-center gap-3 px-7 py-5 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
+                    class="flex items-center justify-center h-16 gap-3 px-4 rounded-full shadow-md hover:bg-gradient-to-r from-cyan-400 to-blue-500 hover:shadow-lg transition-all duration-300">
                     <img src="https://phongkhamtot.com/frontend/home/images/img_service.png" alt="icon"
                         class="w-10 h-10 rounded-full bg-white p-1">
-                    <span class="font-semibold text-lg">Y tế gần bạn</span>
+                    <span class="font-semibold text-base whitespace-nowrap">Y tế gần bạn</span>
                 </a>
             </div>
         </section>
         {{-- Chuyên Khoa --}}
-        <section class="p-6 text-center mt-5">
+        <section class="max-w-[1400px] mx-auto p-6 text-center mt-5">
             <h1 class="text-blue-600 font-bold text-3xl">CHUYÊN KHOA</h1>
             <div
-                class="max-w-8xl p-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 px-4 sm:px-6 md:px-10 text-center">
+                class="max-w-8xl p-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 px-4 sm:px-6 md:px-10 text-center">
                 <a href="http://127.0.0.1:8000/coxuongkhop"
                     class="flex flex-col items-center justify-center shadow-lg hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-5 transition-all duration-300">
                     <img src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_14.png" alt=""
                         class="w-14 h-14 rounded-full bg-white p-2">
-                    <h2 class="p-2 text-base sm:text-lg font-medium">Cơ Xương Khớp</h2>
+                    <h2 class="p-2 text-base sm:text-base font-medium">Cơ Xương Khớp</h2>
                 </a>
 
                 <a href="http://127.0.0.1:8000/dalieu"
@@ -556,7 +556,7 @@
                 }
             }, stepTime);
         });">
-            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            <div class="max-w-[1500px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-3">
                 <div class="relative flex justify-center">
                     <div class="absolute w-3/4 h-3/4 bg-[#22d69f] top-8 left-6 rounded-lg -z-10"></div>
                     <div class="absolute w-2/3 h-3/4 bg-blue-500 top-24 right-0 rounded-lg -z-10"></div>
@@ -572,7 +572,7 @@
 
                     <div class="grid grid-cols-3 gap-6 justify-items-center text-center">
                         <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
-                            <h2 class="text-[#22d69f] text-2xl font-bold" data-target="60000">0</h2>
+                            <h2 class="text-primary text-2xl font-bold" data-target="60000">0</h2>
                             <p class="text-gray-600 text-sm mt-1 font-bold">Phòng Khám Uy Tín</p>
                         </div>
 
@@ -587,9 +587,9 @@
                         </div>
 
                         <div class="col-span-3 flex justify-center gap-6 mt-3">
-                            <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
+                            <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full max-w-[300px]">
                                 <h2 class="text-[#22d69f] text-2xl font-bold" data-target="90000">0</h2>
-                                <p class="text-gray-600 text-sm mt-1 font-bold">Khách hàng tìm kiếm</p>
+                                <p class="text-gray-600 text-sm mt-1 font-bold whitespace-nowrap">Khách hàng tìm kiếm</p>
                             </div>
                             <div class="bg-white shadow-lg rounded-2xl p-6 w-full h-full">
                                 <h2 class="text-[#22d69f] text-2xl font-bold" data-target="8000">0</h2>
@@ -602,7 +602,7 @@
         </section>
 
         {{-- Đánh giá của khách hàng --}}
-        <section class="mt-4 p-6 text-center">
+        <section class="max-w-[1400px] mx-auto mt-4 p-6 text-center">
             <h1 class="text-4xl font-bold text-blue-500 mb-6">ĐÁNH GIÁ CỦA KHÁCH HÀNG</h1>
 
             <!-- Grid responsive -->
@@ -667,11 +667,11 @@
 
 
         {{-- Tin nổi bật --}}
-        <section class="mt-4 p-6">
+        <section class="max-w-[1350px] mx-auto mt-4 p-6">
             <!-- Tiêu đề và nút xem thêm -->
             <div class="grid grid-cols-2 sm:grid-cols-2 items-center">
                 <h1 class="text-blue-500 font-bold text-3xl mb-3 sm:mb-0">TIN TỨC NỔI BẬT</h1>
-                <a href="#" class="text-right text-blue-600 hover:underline text-sm sm:text-base">Xem thêm</a>
+                <a href="http://127.0.0.1:8000/blog" class="text-right text-blue-600 hover:underline text-sm sm:text-base">Xem thêm</a>
             </div>
 
             <!-- Grid các card -->
@@ -739,57 +739,65 @@
         </section>
 
         {{-- Hỗ trợ khách hàng --}}
-        <section class="mt-4 p-6">
+        <section class="max-w-[1400px] mx-auto mt-4 p-6">
             <div class="text-center">
                 <h1 class="text-4xl font-bold text-blue-500">HỖ TRỢ KHÁCH HÀNG</h1>
-                <p class="text-gray-500 mt-3">Bạn cần hỗ trợ <span class="text-green-500">Tìm kiếm, Đăng tin. Thanh
-                        toán?</span> Liên hệ với chúng tôi ngay qua các hình thức:</p>
+                <p class="text-gray-500 mt-3">
+                    Bạn cần hỗ trợ <span class="text-green-500">Tìm kiếm, Đăng tin, Thanh toán?</span>
+                    Liên hệ với chúng tôi ngay qua các hình thức:
+                </p>
             </div>
-            <div class="grid grid-cols-2 sm:grid-cols-4 items-center">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
                 <!-- Card 1 -->
-                <div class="items-center justify-center shadow-lg rounded-2xl p-4 text-center">
-                    <img src="https://phongkhamtot.com/frontend/home/images/icons/icon_mail.svg" alt=""
-                        class="w-24 mx-auto">
-                    <h2 class="text-lg font-bold text-blue-500">Mail</h2>
-                    <p class="text-lg mt-3">Chúng tôi sẽ trả lời thắc mắc của bạn trong vòng 24h</p>
+                <div class="shadow-lg rounded-2xl p-4 text-center flex flex-col justify-between h-full">
+                    <div>
+                        <img src="https://phongkhamtot.com/frontend/home/images/icons/icon_mail.svg" alt=""
+                            class="w-24 mx-auto">
+                        <h2 class="text-lg font-bold text-blue-500 mt-3">Mail</h2>
+                        <p class="text-lg mt-3">Chúng tôi sẽ trả lời thắc mắc của bạn trong vòng 24h</p>
+                    </div>
                     <a href=""
-                        class="block w-full bg-[#22d69f] text-white px-4 py-2 mt-2 rounded-lg hover:bg-blue-500">Email
-                        ngay</a>
+                        class="block bg-[#22d69f] text-white px-4 py-2 mt-4 rounded-lg hover:bg-blue-500">Email ngay</a>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="items-center justify-center shadow-lg rounded-2xl p-4 text-center">
-                    <img src="https://phongkhamtot.com/frontend/home/images/icons/icon_phone.svg" alt=""
-                        class="w-24 mx-auto">
-                    <h2 class="text-lg font-bold text-blue-500">Hotline 24/7</h2>
-                    <p class="text-lg mt-3">Điện thoại viên luôn sẵn sàng giải đáp cho bạn</p>
+                <div class="shadow-lg rounded-2xl p-4 text-center flex flex-col justify-between h-full">
+                    <div>
+                        <img src="https://phongkhamtot.com/frontend/home/images/icons/icon_phone.svg" alt=""
+                            class="w-24 mx-auto">
+                        <h2 class="text-lg font-bold text-blue-500 mt-3">Hotline 24/7</h2>
+                        <p class="text-lg mt-3">Điện thoại viên luôn sẵn sàng giải đáp cho bạn</p>
+                    </div>
                     <a href=""
-                        class="block w-full bg-[#22d69f] text-white px-4 py-2 mt-2 rounded-lg hover:bg-blue-500">Gọi
-                        ngay</a>
+                        class="block bg-[#22d69f] text-white px-4 py-2 mt-4 rounded-lg hover:bg-blue-500">Gọi ngay</a>
                 </div>
+
                 <!-- Card 3 -->
-                <div class="items-center justify-center shadow-lg rounded-2xl p-4 text-center">
-                    <img src="https://phongkhamtot.com/frontend/home/images/icons/icon_mess.svg" alt=""
-                        class="w-24 mx-auto">
-                    <h2 class="text-lg font-bold text-blue-500">Facebook</h2>
-                    <p class="text-lg mt-3">Nhắn tín với chúng tôi trên nền tảng facebook messenger</p>
+                <div class="shadow-lg rounded-2xl p-4 text-center flex flex-col justify-between h-full">
+                    <div>
+                        <img src="https://phongkhamtot.com/frontend/home/images/icons/icon_mess.svg" alt=""
+                            class="w-24 mx-auto">
+                        <h2 class="text-lg font-bold text-blue-500 mt-3">Facebook</h2>
+                        <p class="text-lg mt-3">Nhắn tin với chúng tôi trên nền tảng Facebook Messenger</p>
+                    </div>
                     <a href="#"
-                        class="block w-full bg-[#22d69f] text-white px-4 py-2 mt-2 rounded-lg hover:bg-blue-500">Gửi tin
-                        nhắn</a href="#">
+                        class="block bg-[#22d69f] text-white px-4 py-2 mt-4 rounded-lg hover:bg-blue-500">Gửi tin nhắn</a>
                 </div>
-                {{-- card 4 --}}
-                <div class="items-center justify-center shadow-lg rounded-2xl p-4 text-center">
-                    <img src="https://phongkhamtot.com/frontend/home/images/icons/icon_zalo.svg" alt=""
-                        class="w-24 mx-auto">
-                    <h2 class="text-lg font-bold text-blue-500">Zalo</h2>
-                    <p class="text-lg mt-3">Nhắn tin hoặc gọi chúng tôi trên nền tảng Zalo</p>
+
+                <!-- Card 4 -->
+                <div class="shadow-lg rounded-2xl p-4 text-center flex flex-col justify-between h-full">
+                    <div>
+                        <img src="https://phongkhamtot.com/frontend/home/images/icons/icon_zalo.svg" alt=""
+                            class="w-24 mx-auto">
+                        <h2 class="text-lg font-bold text-blue-500 mt-3">Zalo</h2>
+                        <p class="text-lg mt-3">Nhắn tin hoặc gọi chúng tôi trên nền tảng Zalo</p>
+                    </div>
                     <a href="#"
-                        class="block w-full bg-[#22d69f] text-white px-4 py-2 mt-2 rounded-lg hover:bg-blue-500">Liên hệ
-                        ngay
-                    </a>
+                        class="block bg-[#22d69f] text-white px-4 py-2 mt-4 rounded-lg hover:bg-blue-500">Liên hệ ngay</a>
                 </div>
             </div>
         </section>
+
     </div>
 
 @endsection

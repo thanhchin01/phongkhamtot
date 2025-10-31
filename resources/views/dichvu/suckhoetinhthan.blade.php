@@ -2,7 +2,7 @@
 @section('title', 'Được Quan Tâm Nhất')
 
 @section('content')
-    <div class="p-6 gap-6 ">
+    <div class="gap-6 ">
         <h1 class="text-3xl text-blue-500 font-bold">SỨC KHỎE TINH THẦN</h1>
         <div class="flex flex-cols gap-2 mt-4">
             <span class="font-medium">0</span>

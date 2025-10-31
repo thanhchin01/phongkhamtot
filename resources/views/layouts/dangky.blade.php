@@ -7,9 +7,9 @@
     <title>Đăng ký</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    {{-- Tailwind CDN (chạy ngay, không cần build) --}}
+   {{-- Tailwind CDN (chạy ngay, không cần build) --}}
     <script src="https://cdn.tailwindcss.com"></script>
-    @vite('resources/css/app.css')
+    @vite('resources/css/style.css')
 </head>
 
 <body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
