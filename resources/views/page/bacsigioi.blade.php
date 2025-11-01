@@ -65,7 +65,7 @@
         </div>
     </section>
     <div class="text-center mt-4">
-        <span class="text-sm"><a href="http://127.0.0.1:8000/" class="hover:text-[#22d69f]">Trang chủ</a>/ Bác sĩ
+        <span class="text-sm"><a href=" {{url('')}} " class="hover:text-[#22d69f]">Trang chủ</a>/ Bác sĩ
             giỏi</span>
         <h1 class="mt-3 text-3xl text-blue-500 font-bold">BÁC SĨ GIỎI</h1>
     </div>
@@ -207,7 +207,7 @@
             </ul>
         </div>
         <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 w-full">
-            <a href="http://127.0.0.1:8000/ttbacsi">
+            <a href=" {{url('ttbacsi')}} ">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/jpb3/img_doctor03.jpg" alt=""
                     class="h-[300px] w-full bg-blue-500 rounded-lg">
                 <p class="font-medium text-xl mt-2">Nguyễn Bảo Trọng</p>
@@ -225,7 +225,7 @@
                     <p>Thẩm mỹ viện SBC Japan</p>
                 </div>
             </a>
-            <a>
+            <a href=" {{url('ttbacsi')}} ">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/bac-si-phong-min.jpg"
                     alt="" class="h-[300px] w-full rounded-lg">
                 <p class="font-medium text-lg mt-2">Bác Sĩ CKI Châu Thanh Phong</p>
@@ -243,7 +243,7 @@
                     <p>Bệnh viện quốc tế Thảo Điền</p>
                 </div>
             </a>
-            <a>
+            <a href=" {{url('ttbacsi')}} ">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/pngtree-flat-illustration-of-a-male-doctor-avatar-upper-body-in-youth-vector-picture-image_10580735.png"
                     alt="" class="h-[300px] w-full bg-blue-500 rounded-lg">
                 <p class="font-medium text-lg mt-2">Bác sĩ Lâm Đăng Khoa</p>
@@ -261,7 +261,7 @@
                     <p>Bệnh viện quốc tế Thảo Điền</p>
                 </div>
             </a>
-            <a>
+            <a href=" {{url('ttbacsi')}} ">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/pngtree-flat-illustration-of-a-male-doctor-avatar-upper-body-in-youth-vector-picture-image_10580735.png"
                     alt="" class="h-[300px] w-full bg-blue-500 rounded-lg">
                 <p class="font-medium text-lg mt-2">Bác sĩ Trịnh Quang Ngọc</p>
@@ -279,7 +279,7 @@
                     <p>Bệnh viện quốc tế Thảo Điền</p>
                 </div>
             </a>
-            <a>
+            <a href=" {{url('ttbacsi')}} ">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/bac-si-Pascal-Oxeda.jpg"
                     alt="" class="h-[300px] rounded-lg">
                 <p class="font-medium text-lg mt-2">Tiến sĩ, bác sĩ Oxeda:</p>
@@ -297,7 +297,7 @@
                     <p>Bệnh viện quốc tế Thảo Điền</p>
                 </div>
             </a>
-            <a>
+            <a href=" {{url('ttbacsi')}} ">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/bac-si-Alain-Michel.jpg"
                     alt="" class="h-[300px] rounded-lg">
                 <p class="font-medium text-lg mt-2">Thạc sĩ, bác sĩ Alain Michel</p>
@@ -315,7 +315,7 @@
                     <p>Bệnh viện quốc tế Thảo Điền</p>
                 </div>
             </a>
-            <a>
+            <a href=" {{url('ttbacsi')}} ">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/bac-si-huong-min.jpg"
                     alt="" class="h-[300px] w-full rounded-lg">
                 <p class="font-medium text-lg mt-2">Bác sĩ Ngô Thị Vân Hương</p>
@@ -333,7 +333,7 @@
                     <p>Bệnh viện quốc tế Thảo Điền</p>
                 </div>
             </a>
-            <a>
+            <a href=" {{url('ttbacsi')}} ">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/benh-vien-quoc-te-thao-dien/bac-si-thang.jpg"
                     alt="" class="h-[300px] rounded-lg">
                 <p class="font-medium text-lg mt-2">Bác sĩ Philip Thang Nguyen</p>

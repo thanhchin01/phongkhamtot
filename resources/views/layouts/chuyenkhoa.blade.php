@@ -22,7 +22,7 @@
     }" class="bg-white shadow-md sticky top-0 z-50">
         <div class="px-4 md:px-6 py-3 flex justify-between items-center">
             <!-- Logo -->
-            <a href="http://127.0.0.1:8000/" class="flex items-center gap-3">
+            <a href=" {{url('')}} " class="flex items-center gap-3">
                 <img src="https://phongkhamtot.com/logo.png" alt="Logo" class="h-9 w-auto md:h-10">
             </a>
 
@@ -65,26 +65,26 @@
 
                 <!-- Menu items -->
                 <div class="relative group">
-                    <a href="http://127.0.0.1:8000/duocquantam"
+                    <a href=" {{url('duocquantam')}} "
                         class="px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 transition font-medium">
                         Được quan tâm nhất
                     </a>
                     <div
                         class="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-40 text-gray-700 z-50">
-                        <a href="http://127.0.0.1:8000/nhakhoa" class="block px-4 py-2 hover:bg-gray-100">Nha khoa</a>
-                        <a href="http://127.0.0.1:8000/dalieu" class="block px-4 py-2 hover:bg-gray-100">Da liễu</a>
-                        <a href="http://127.0.0.1:8000/ranghammat" class="block px-4 py-2 hover:bg-gray-100">Răng hàm
+                        <a href=" {{url('nhakhoa')}} " class="block px-4 py-2 hover:bg-gray-100">Nha khoa</a>
+                        <a href=" {{url('dalieu')}} " class="block px-4 py-2 hover:bg-gray-100">Da liễu</a>
+                        <a href=" {{url('ranghammat')}} " class="block px-4 py-2 hover:bg-gray-100">Răng hàm
                             mặt</a>
-                        <a href="http://127.0.0.1:8000/thammyvien" class="block px-4 py-2 hover:bg-gray-100">Thẩm mỹ
+                        <a href=" {{url('thammyvien')}} " class="block px-4 py-2 hover:bg-gray-100">Thẩm mỹ
                             viện</a>
                     </div>
                 </div>
 
-                <a href="http://127.0.0.1:8000/bacsigioi"
+                <a href=" {{url('bacsigioi')}} "
                     class="px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 transition font-medium">Bác sĩ giỏi</a>
-                <a href="http://127.0.0.1:8000/blog"
+                <a href=" {{url('blog')}} "
                     class="px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 transition font-medium">Blog</a>
-                <a href="http://127.0.0.1:8000/huongdan"
+                <a href=" {{url('huongdan')}} "
                     class="px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 transition font-medium">Hướng dẫn</a>
                 <!-- Nút Đăng nhập -->
                 <div x-data="{ dangnhap: false, dangky: false }" class="relative mt">
@@ -204,7 +204,7 @@
                     </div>
                 </div>
                 <!-- Nút đăng tin -->
-                <a href="http://127.0.0.1:8000/dangtin"
+                <a href=" {{url('dangtin')}} "
                     class="bg-[#22d69f] text-white px-4 py-2 rounded-lg hover:bg-red-500 transition flex items-center">
                     Đăng tin
                     <i class="fa-solid fa-paper-plane ms-2"></i>
@@ -215,12 +215,12 @@
         <!-- Menu mobile -->
         <div x-show="openMenu" x-transition
             class="flex flex-col bg-gray-50 border-t md:hidden text-gray-800 px-5 py-3 space-y-2">
-            <a href="http://127.0.0.1:8000/duocquantam" class="block py-2 hover:bg-gray-200 rounded-md">Được quan tâm
+            <a href=" {{url('duocquantam')}} " class="block py-2 hover:bg-gray-200 rounded-md">Được quan tâm
                 nhất</a>
-            <a href="http://127.0.0.1:8000/bacsigioi" class="block py-2 hover:bg-gray-200 rounded-md">Bác sĩ giỏi</a>
-            <a href="http://127.0.0.1:8000/blog" class="block py-2 hover:bg-gray-200 rounded-md">Blog</a>
-            <a href="http://127.0.0.1:8000/huongdan" class="block py-2 hover:bg-gray-200 rounded-md">Hướng dẫn</a>
-            <a href="http://127.0.0.1:8000/dangtin"
+            <a href=" {{url('bacsigioi')}} " class="block py-2 hover:bg-gray-200 rounded-md">Bác sĩ giỏi</a>
+            <a href=" {{url('blog')}} " class="block py-2 hover:bg-gray-200 rounded-md">Blog</a>
+            <a href=" {{url('huongdan')}} " class="block py-2 hover:bg-gray-200 rounded-md">Hướng dẫn</a>
+            <a href=" {{url('dangtin')}} "
                 class="block bg-[#22d69f] text-white text-center py-2 rounded-lg hover:bg-red-500 transition">
                 Đăng tin
                 <i class="fa-solid fa-paper-plane ms-2"></i>
@@ -248,97 +248,97 @@
             <!-- Dãy card -->
             <div id="serviceList"
                 class="grid grid-flow-col auto-cols-[minmax(13rem,1fr)] gap-4 mt-5 overflow-x-auto scroll-smooth no-scrollbar bg-white">
-                <a href="http://127.0.0.1:8000/coxuongkhop"
+                <a href=" {{url('coxuongkhop')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_14.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Cơ Xương Khớp</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/dalieu"
+                <a href=" {{url('dalieu')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_1.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Da liễu</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/hohap"
+                <a href=" {{url('hohap')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_2.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Hô Hấp</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/ngoaikhoa"
+                <a href=" {{url('ngoaikhoa')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_13.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Ngoại Khoa</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/nhakhoa"
+                <a href=" {{url('nhakhoa')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_4.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Nha Khoa</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/nhikhoa"
+                <a href=" {{url('nhikhoa')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_5.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Nhi Khoa</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/noikhoa"
+                <a href=" {{url('noikhoa')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_10.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Nội Khoa</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/phuchoichucnang"
+                <a href=" {{url('phuchoichucnang')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_6.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Phục Hồi Chức Năng</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/ranghammat"
+                <a href=" {{url('ranghammat')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_7.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Răng Hàm Mặt</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/sanphukhoa"
+                <a href=" {{url('sanphukhoa')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_3.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Sản Phụ Khoa</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/taimuihong"
+                <a href=" {{url('taimuihong')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_9.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Tai Mũi Họng</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/thammyvien"
+                <a href=" {{url('thammyvien')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_8.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Thẩm Mỹ Viện</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/timmach"
+                <a href=" {{url('timmach')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_11.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Tim Mạch</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/ungbuou"
+                <a href=" {{url('ungbuou')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_12.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Ung Bướu</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/xetnghiemykhoa"
+                <a href=" {{url('xetnghiemykhoa')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_13.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">
                     <h2 class="p-3 text-base whitespace-nowrap font-medium">Xét Nghiệm Y Khoa</h2>
                 </a>
-                <a href="http://127.0.0.1:8000/yhoccotruyen"
+                <a href=" {{url('yhoccotruyen')}} "
                     class="flex flex-col items-center justify-center shadow-lg text-center items-center hover:bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl p-6"><img
                         src="https://phongkhamtot.com/frontend/home/images/specialty/img_specialty_15.png"
                         alt="" class="w-14 h-14 rounded-full bg-white p-2 text-green-300">

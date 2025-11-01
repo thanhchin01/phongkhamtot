@@ -17,8 +17,8 @@
     <div class="w-full max-w-md bg-white rounded-2xl shadow-lg p-3">
         <img src="https://id.ohi.vn/logo.svg" alt="" class="mx-auto w-20 mt-4">
         <span class="flex flex-cols justify-center mt-2">
-            <a href="http://127.0.0.1:8000/dangnhap" class="text-xl font-bold text-blue-600 text-center">Đăng nhập</a>/ <a
-             href="http://127.0.0.1:8000/dangky" class="text-xl font-bold text-center">Đăng ký</a>
+            <a href=" {{url('dangnhap')}} " class="text-xl font-bold text-blue-600 text-center">Đăng nhập</a>/ <a
+             href=" {{url('dangky')}} " class="text-xl font-bold text-center">Đăng ký</a>
         </span>
         <form action="{{ route('dangnhap') }}" method="POST" class="space-y-4">
             @csrf

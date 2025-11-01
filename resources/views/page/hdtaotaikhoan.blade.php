@@ -3,17 +3,17 @@
 
 @section('content')
     <div class="main-body p-3 mt-2 container mx-auto">
-        <span class="text-sm sticky top-20 self-start"><a href="http://127.0.0.1:8000/" class="hover:text-[#22d69f]">Trang chủ</a>/ <a
-                href="http://127.0.0.1:8000/huongdan" class="hover:text-[#22d69f]">Hướng dẫn</a>/Tạo tài khoản</span>
+        <span class="text-sm sticky top-20 self-start"><a href=" {{url('')}} " class="hover:text-[#22d69f]">Trang chủ</a>/ <a
+                href=" {{url('huongdan')}} " class="hover:text-[#22d69f]">Hướng dẫn</a>/Tạo tài khoản</span>
         <div class="flex gap-4">
             <div class="w-4/12 p-4 gap-4 flex flex-col sticky top-24 self-start">
-                <a href="http://127.0.0.1:8000/huongdan" class="bg-gray-200 px-4 py-3 rounded-lg font-bold">Hưỡng dẫn tìm
+                <a href=" {{url('huongdan')}} " class="bg-gray-200 px-4 py-3 rounded-lg font-bold">Hưỡng dẫn tìm
                     kiếm</a>
-                <a href="http://127.0.0.1:8000/hdtaotaikhoan" class="bg-blue-500 px-4 py-3 rounded-lg font-bold">Tạo tài
+                <a href=" {{url('hdtaotaikhoan')}} " class="bg-blue-500 px-4 py-3 rounded-lg font-bold">Tạo tài
                     khoản</a>
-                <a href="http://127.0.0.1:8000/hddangtin" class="bg-gray-200 px-4 py-3 rounded-lg font-bold">Hưỡng dẫn đăng
+                <a href=" {{url('hddangtin')}} " class="bg-gray-200 px-4 py-3 rounded-lg font-bold">Hưỡng dẫn đăng
                     tin</a>
-                <a href="http://127.0.0.1:8000/quanlytin" class="bg-gray-200 px-4 py-3 rounded-lg font-bold">Quản lý tin</a>
+                <a href=" {{url('quanlytin')}} " class="bg-gray-200 px-4 py-3 rounded-lg font-bold">Quản lý tin</a>
             </div>
             <div class="w-8/12 p-4 shadow-lg rounded-lg gap-6">
                 <h1 class="text-3xl text-blue-500 font-bold">TẠO TÀI KHOẢN</h1>

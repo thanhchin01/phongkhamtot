@@ -3,8 +3,8 @@
 
 @section('content')
     <div class="main-body p-3 mt-2 container mx-auto">
-        <span class="text-sm"><a href="http://127.0.0.1:8000/" class="hover:text-[#22d69f]">Trang chủ</a>/ <a
-                href="http://127.0.0.1:8000/blog" class="hover:text-[#22d69f]">Blog</a>/ Tin tức</span>
+        <span class="text-sm"><a href=" {{url('')}} " class="hover:text-[#22d69f]">Trang chủ</a>/ <a
+                href=" {{url('blog')}} " class="hover:text-[#22d69f]">Blog</a>/ Tin tức</span>
         <h1 class="text-3xl font-bold text-blue-500 mt-3">TIN TỨC</h1>
         <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 w-full flex flex-col">
             <a class="h-[210px]items-center justify-center shadow-lg rounded-2xl bg-white mt-3">

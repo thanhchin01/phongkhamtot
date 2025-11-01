@@ -4,7 +4,7 @@
 @section('content')
     <div class="main-body p-3 mt-2">
         <span class="text-sm">
-            <a href="http://127.0.0.1:8000/" class="hover:text-[#22d69f]">Trang chủ</a> / Bác sĩ gi
+            <a href=" {{url('')}} " class="hover:text-[#22d69f]">Trang chủ</a> / Bác sĩ gi
         </span>
         <!-- Layout tổng: chia 2 cột trên PC, 1 cột trên mobile -->
         <div class="flex flex-col lg:flex-row gap-6 mt-4">

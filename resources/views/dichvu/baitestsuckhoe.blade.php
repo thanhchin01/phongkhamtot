@@ -1,5 +1,5 @@
 @extends('layouts.duocqtam')
-@section('title', 'Được Quan Tâm Nhất')
+@section('title', 'Bài test sức khỏe')
 
 @section('content')
     <div class="gap-6 ">
@@ -13,7 +13,7 @@
         </div>
         <h1 class="text-blue-500 text-3xl font-medium text-center mt-5">KHÔNG TÌM THẤY KẾT QUẢ PHÙ HỢP</h1>
         <p class="text-gray-500 mt-2 text-center">Thử lại bằng tiêu chí khác</p>
-        <div class="mt-4 flex justify-center"><a href="http://127.0.0.1:8000/duocquantam"
+        <div class="mt-4 flex justify-center"><a href=" {{url('duocquantam')}} "
                 class="bg-[#22d69f] text-white px-4 py-2 rounded-lg">Thử lại<i class="fa-solid fa-rotate-right ms-2"></i></a></div>
     </div>
 @endsection

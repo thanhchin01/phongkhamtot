@@ -9,7 +9,7 @@
             <p>phòng khám đang chờ bạn</p>
         </div>
         <div id="cardContainer" class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 w-full">
-            <a href="https://phongkhamtot.com/phong-kham-tu/phong-kham-da-lieu-bs-cki-le-dong"
+            <a href=" {{url('ttphongkham')}} "
                 class="relative inline-block group">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/Phong%20kham%20Da%20li%E1%BB%85u%20BS_CKI%20Le%20Dong.jpg"
                     alt="Phòng khám Da liễu BS.CKI Lê Đông" class="w-full h-[175px] rounded-lg">
@@ -35,7 +35,7 @@
 
                 <span><i class="fa-solid fa-location-dot me-2"></i>Số 7 Yết Kiêu Phường Thuận Hòa</span>
             </a>
-            <a href="https://phongkhamtot.com/phong-kham-tu/phong-kham-da-lieu-bs-cki-le-dong"
+            <a href=" {{url('ttphongkham')}} "
                 class="relative inline-block group">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/Phong%20kham%20Da%20li%E1%BB%85u%20BS_CKI%20Le%20Dong.jpg"
                     alt="Phòng khám Da liễu BS.CKI Lê Đông" class="w-full h-[175px] rounded-lg">
@@ -61,7 +61,7 @@
 
                 <span><i class="fa-solid fa-location-dot me-2"></i>Số 7 Yết Kiêu Phường Thuận Hòa</span>
             </a>
-            <a href="https://phongkhamtot.com/phong-kham-tu/phong-kham-da-lieu-bs-cki-le-dong"
+            <a href=" {{url('ttphongkham')}} "
                 class="relative inline-block group">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/Phong%20kham%20Da%20li%E1%BB%85u%20BS_CKI%20Le%20Dong.jpg"
                     alt="Phòng khám Da liễu BS.CKI Lê Đông" class="w-full h-[175px] rounded-lg">
@@ -87,7 +87,7 @@
 
                 <span><i class="fa-solid fa-location-dot me-2"></i>Số 7 Yết Kiêu Phường Thuận Hòa</span>
             </a>
-            <a href="https://phongkhamtot.com/phong-kham-tu/phong-kham-da-lieu-bs-cki-le-dong"
+            <a href=" {{url('ttphongkham')}} "
                 class="relative inline-block group">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/Phong%20kham%20Da%20li%E1%BB%85u%20BS_CKI%20Le%20Dong.jpg"
                     alt="Phòng khám Da liễu BS.CKI Lê Đông" class="w-full h-[175px] rounded-lg">
@@ -113,7 +113,7 @@
 
                 <span><i class="fa-solid fa-location-dot me-2"></i>Số 7 Yết Kiêu Phường Thuận Hòa</span>
             </a>
-            <a href="https://phongkhamtot.com/phong-kham-tu/phong-kham-da-lieu-bs-cki-le-dong"
+            <a href=" {{url('ttphongkham')}} "
                 class="relative inline-block group">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/Phong%20kham%20Da%20li%E1%BB%85u%20BS_CKI%20Le%20Dong.jpg"
                     alt="Phòng khám Da liễu BS.CKI Lê Đông" class="w-full h-[175px] rounded-lg">
@@ -139,7 +139,7 @@
 
                 <span><i class="fa-solid fa-location-dot me-2"></i>Số 7 Yết Kiêu Phường Thuận Hòa</span>
             </a>
-            <a href="https://phongkhamtot.com/phong-kham-tu/phong-kham-da-lieu-bs-cki-le-dong"
+            <a href=" {{url('ttphongkham')}} "
                 class="relative inline-block group">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/Phong%20kham%20Da%20li%E1%BB%85u%20BS_CKI%20Le%20Dong.jpg"
                     alt="Phòng khám Da liễu BS.CKI Lê Đông" class="w-full h-[175px] rounded-lg">
@@ -165,7 +165,7 @@
 
                 <span><i class="fa-solid fa-location-dot me-2"></i>Số 7 Yết Kiêu Phường Thuận Hòa</span>
             </a>
-            <a href="https://phongkhamtot.com/phong-kham-tu/phong-kham-da-lieu-bs-cki-le-dong"
+            <a href=" {{url('ttphongkham')}} "
                 class="relative inline-block group">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/Phong%20kham%20Da%20li%E1%BB%85u%20BS_CKI%20Le%20Dong.jpg"
                     alt="Phòng khám Da liễu BS.CKI Lê Đông" class="w-full h-[175px] rounded-lg">
@@ -191,7 +191,7 @@
 
                 <span><i class="fa-solid fa-location-dot me-2"></i>Số 7 Yết Kiêu Phường Thuận Hòa</span>
             </a>
-            <a href="https://phongkhamtot.com/phong-kham-tu/phong-kham-da-lieu-bs-cki-le-dong"
+            <a href=" {{url('ttphongkham')}} "
                 class="relative inline-block group">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/Phong%20kham%20Da%20li%E1%BB%85u%20BS_CKI%20Le%20Dong.jpg"
                     alt="Phòng khám Da liễu BS.CKI Lê Đông" class="w-full h-[175px] rounded-lg">
@@ -217,7 +217,7 @@
 
                 <span><i class="fa-solid fa-location-dot me-2"></i>Số 7 Yết Kiêu Phường Thuận Hòa</span>
             </a>
-            <a href="https://phongkhamtot.com/phong-kham-tu/phong-kham-da-lieu-bs-cki-le-dong"
+            <a href=" {{url('ttphongkham')}} "
                 class="relative inline-block group">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/Phong%20kham%20Da%20li%E1%BB%85u%20BS_CKI%20Le%20Dong.jpg"
                     alt="Phòng khám Da liễu BS.CKI Lê Đông" class="w-full h-[175px] rounded-lg">
@@ -243,7 +243,7 @@
 
                 <span><i class="fa-solid fa-location-dot me-2"></i>Số 7 Yết Kiêu Phường Thuận Hòa</span>
             </a>
-            <a href="https://phongkhamtot.com/phong-kham-tu/phong-kham-da-lieu-bs-cki-le-dong"
+            <a href=" {{url('ttphongkham')}} "
                 class="relative inline-block group">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/Phong%20kham%20Da%20li%E1%BB%85u%20BS_CKI%20Le%20Dong.jpg"
                     alt="Phòng khám Da liễu BS.CKI Lê Đông" class="w-full h-[175px] rounded-lg">
@@ -269,7 +269,7 @@
 
                 <span><i class="fa-solid fa-location-dot me-2"></i>Số 7 Yết Kiêu Phường Thuận Hòa</span>
             </a>
-            <a href="https://phongkhamtot.com/phong-kham-tu/phong-kham-da-lieu-bs-cki-le-dong"
+            <a href=" {{url('ttphongkham')}} "
                 class="relative inline-block group">
                 <img src="https://phongkhamtot.com/uploads/static/PHONGKHAMTOT/Phong%20kham%20Da%20li%E1%BB%85u%20BS_CKI%20Le%20Dong.jpg"
                     alt="Phòng khám Da liễu BS.CKI Lê Đông" class="w-full h-[175px] rounded-lg">

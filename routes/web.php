@@ -18,7 +18,7 @@ Route::post('/dangnhap', function () {
 })->name('dangnhap');
 
 Route::post('/dangky', function () {
-    // Xử lý đăng nhập ở đây (nếu cần)
+    // Xử lý đăng ký ở đây (nếu cần)
 })->name('dangky');
 
 Route::get('/', function () {
@@ -180,6 +180,10 @@ Route::get('/lienhe', function () {
 
 Route::get('/ttbacsi', function () {
     return view('blog.ttbacsi');
+});
+
+Route::get('/ttphongkham', function () {
+    return view('blog.ttphongkham');
 });
 
 
